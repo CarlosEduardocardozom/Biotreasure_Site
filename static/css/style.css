@@ -1,0 +1,42 @@
+* {
+	font-family: "Host Grotesk", serif;
+	font-optical-sizing: auto;
+	font-weight: weight;
+	font-style: normal;
+}
+
+/* Ajuste para remover margens e preencher a tela */
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+/* Estilos adicionais para melhorar o layout */
+.container {
+	padding: 0;
+}
+
+/* Cor verde personalizada para o menu */
+.bg-green {
+	background-color: #499449 !important;
+}
+
+.navbar .nav-link {
+	color: white !important;
+}
+
+.navbar .navbar-brand {
+	color: white !important;
+}
+
+#sidebar {
+    max-width: 350px;
+    height: 100%;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#map {
+    width: calc(100% - 350px);
+}

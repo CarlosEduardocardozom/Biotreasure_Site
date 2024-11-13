@@ -1,0 +1,38 @@
+* {
+	font-family: "Host Grotesk", serif;
+	font-optical-sizing: auto;
+	font-weight: weight;
+	font-style: normal;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#map {
+	height: calc(100vh - 56px);
+	/* Altura total da tela menos o tamanho da navbar */
+	width: 100%;
+}
+
+/* Estilos adicionais para melhorar o layout */
+.container {
+	padding: 0;
+}
+
+/* O mapa preencherá toda a área restante da tela */
+#map {
+	height: 100vh;
+	width: 100%;
+}
+
+.navbar .nav-link {
+	color: white !important;
+}
+
+.bg-green {
+	background-color: #499449 !important;
+}
